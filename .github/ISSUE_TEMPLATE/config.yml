@@ -1,8 +1,5 @@
 blank_issues_enabled: true
 contact_links:
-  - name: FAQ & Documentation
-    url: https://github.com/n2osync/n2o/blob/main/docs/FAQ.md
-    about: Check the FAQ for answers to common questions before opening an issue.
-  - name: Setup Guide
-    url: https://github.com/n2osync/n2o#readme
-    about: Installation instructions and getting started guide.
+  - name: Documentation
+    url: https://n2osync.com/docs
+    about: Setup guides, sync options, and troubleshooting.
