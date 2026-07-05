@@ -1,0 +1,65 @@
+name: Bug report
+description: Something in N2O is not working right
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What did you see, and what did you expect instead?
+      placeholder: After running Sync, my database pages came in without their cover images...
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Connect via OAuth
+        2. Choose a database with cover images
+        3. Run Sync
+    validations:
+      required: false
+  - type: input
+    id: plugin-version
+    attributes:
+      label: N2O version
+      description: Bottom-right corner of the N2O panel, or Settings > Community plugins
+      placeholder: 0.11.5
+    validations:
+      required: true
+  - type: input
+    id: obsidian-version
+    attributes:
+      label: Obsidian version
+      placeholder: 1.12.7
+    validations:
+      required: false
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - Windows
+        - macOS
+        - Linux
+    validations:
+      required: true
+  - type: dropdown
+    id: direction
+    attributes:
+      label: Sync direction in use
+      options:
+        - Notion to Obsidian only
+        - Bidirectional
+        - Not sure
+    validations:
+      required: false
+  - type: textarea
+    id: errors
+    attributes:
+      label: Error messages (if any)
+      description: Paste any error text or notices you saw. You can also paste from Settings > N2O > Copy diagnostics for support.
+      render: shell
+    validations:
+      required: false
