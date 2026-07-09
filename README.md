@@ -10,15 +10,13 @@
 </p>
 
 <p align="center">
-  <a href="https://n2osync.com">Website</a> · 
-  <a href="https://n2osync.com/docs">Docs</a> · 
-  <a href="https://simhaxdev.gumroad.com/l/n2opro">Get Pro</a> · 
+  <a href="https://n2osync.com">Website</a> /
+  <a href="https://n2osync.com/docs">Docs</a> /
+  <a href="https://n2osync.com">Pricing</a> /
   <a href="https://github.com/n2osync/n2o/issues">Report a Bug</a>
 </p>
 
 ---
-
-<!-- TODO: Add hero screenshot or GIF here showing Notion + Obsidian side by side -->
 
 ## The Problem
 
@@ -37,7 +35,7 @@ You're copy-pasting. You're exporting markdown that breaks. You're maintaining t
 - **Attachment sync** - images and files downloaded locally to your vault
 - **Three-way merge** - when both sides change the same page, N2O merges them. You never lose data
 - **Incremental sync** - only changed pages are re-fetched. Fast, even with large workspaces
-- **100% local** - direct Notion API calls. No third-party servers. No cloud. Your data never leaves your machine
+- **Content stays local** - N2O talks directly to the Notion API and writes to your vault. Your note content is never sent to any N2O server
 
 ---
 
@@ -45,7 +43,7 @@ You're copy-pasting. You're exporting markdown that breaks. You're maintaining t
 
 ### Via BRAT (Recommended)
 
-N2O is in pre-release. Install with [BRAT](https://github.com/TfTHacker/obsidian42-brat):
+N2O installs through [BRAT](https://github.com/TfTHacker/obsidian42-brat), which keeps it auto-updated:
 
 1. Install **BRAT** from Obsidian's Community Plugins
 2. Open BRAT settings > **Add Beta Plugin**
@@ -67,36 +65,29 @@ N2O is in pre-release. Install with [BRAT](https://github.com/TfTHacker/obsidian
 |--------|-----------|-------------|
 | **Sync Now** | Notion > Obsidian | Pulls pages and writes them as Markdown |
 | **Push Changes** | Obsidian > Notion | Sends your local edits back to Notion |
-| **Preview** | - | Dry-run showing what would change |
+| **Preview** | Dry run | Shows what would change before it does |
 
-**Pro automation:** Auto-sync on a timer, real-time fast polling, and auto-push on local edits.
+**Automation:** Auto-sync on a timer, real-time fast polling, and auto-push on local edits.
 
 When both Notion and Obsidian change the same page, N2O does a three-way merge using a stored base version. No data lost on either side.
 
-<!-- TODO: Add 2-3 screenshots here: Dashboard, Database mapping, Conflict resolution -->
-
 ---
 
-## Free vs Pro
+## Pricing
 
-N2O is fully functional on the free tier. Pro just removes limits and adds automation.
+Start with a **14-day free trial** (up to 300 pages, no credit card - start it from the plugin settings). After the trial, pick a plan to keep syncing with no limits:
 
-| Feature | Free | Pro |
-|---------|:----:|:---:|
-| Synced pages | 100 | Unlimited |
-| Databases | Unlimited | Unlimited |
-| All block types & properties | Yes | Yes |
-| Three-way merge | Yes | Yes |
-| Pull sync (Notion > Obsidian) | Yes | Yes |
-| Push sync (Obsidian > Notion) | - | Yes |
-| Auto-sync & scheduling | - | Yes |
-| Fast polling (near real-time) | - | Yes |
-| Auto-push (live bidirectional) | - | Yes |
-| Custom templates | - | Yes |
+| | Trial | Pro | Lifetime |
+|---|:---:|:---:|:---:|
+| Price | Free, 14 days | $8 / month | $249 once |
+| Synced pages | 300 | Unlimited | Unlimited |
+| All block types & properties | Yes | Yes | Yes |
+| Pull + push sync | Yes | Yes | Yes |
+| Three-way merge | Yes | Yes | Yes |
+| Auto-sync, fast polling, auto-push | Yes | Yes | Yes |
+| Custom templates & Bases views | Yes | Yes | Yes |
 
-**Pro:** [$8/month](https://simhaxdev.gumroad.com/l/n2opro) or [$249 lifetime](https://simhaxdev.gumroad.com/l/n2oprolife)
-
-> 14-day free trial. 300 pages, no credit card required. Start from plugin settings.
+**Get N2O:** [Pro - $8/month](https://buy.polar.sh/polar_cl_P6gGNQIxY1HPcKYVeEUwtjaiWDVhPVaSBNYJV12q0Bk) or [Lifetime - $249](https://buy.polar.sh/polar_cl_Gc4muMDIVJNeTLgNZCzEnSwdv51jbzqCHZzMo2PbI61)
 
 ---
 
@@ -108,26 +99,24 @@ If you use both Notion and Obsidian, this was built for you.
 
 ---
 
-## Privacy & Security
+## Privacy
 
-- All sync data stays **local** in your Obsidian vault
-- N2O talks directly to the **Notion API**, no intermediary servers
-- **Zero telemetry**, analytics, or tracking
-- License activation via Gumroad, no other third-party services
-- Open source under MIT license
+- **Your note content stays local.** N2O talks directly to the Notion API and writes to your vault. Your pages and notes are never sent to any N2O server.
+- **License and diagnostics.** To validate your license and improve reliability, N2O sends the N2O license server your license and device id, plugin/Obsidian version and platform, and per-sync diagnostics: counts (pages, databases, conflicts), timings, and sanitized error messages. Error text is redacted so your page titles and content are not included.
+- No advertising or cross-site tracking.
 
-[Privacy Policy](https://n2osync.com/privacy) · [Terms of Service](https://n2osync.com/terms)
+[Privacy Policy](https://n2osync.com/docs/legal/privacy/) / [Terms of Service](https://n2osync.com/docs/legal/terms/)
 
 ---
 
 ## Support
 
-- **Docs** - [n2osync.com](https://n2osync.com)
+- **Docs** - [n2osync.com/docs](https://n2osync.com/docs)
 - **Email** - support@n2osync.com
 - **Issues** - [GitHub Issues](https://github.com/n2osync/n2o/issues)
 
 ---
 
 <p align="center">
-  Ready to try it? Install via BRAT in under a minute. Free, no account required.
+  N2O is a closed-source commercial plugin. This repository hosts releases only.
 </p>

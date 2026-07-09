@@ -7,5 +7,8 @@
 	"author": "simhaxdev",
 	"authorUrl": "https://github.com/simhaxdev",
 	"isDesktopOnly": true,
-	"fundingUrl": "https://simhaxdev.gumroad.com/l/n2opro"
+	"fundingUrl": {
+		"Pro (monthly)": "https://buy.polar.sh/polar_cl_P6gGNQIxY1HPcKYVeEUwtjaiWDVhPVaSBNYJV12q0Bk",
+		"Lifetime": "https://buy.polar.sh/polar_cl_Gc4muMDIVJNeTLgNZCzEnSwdv51jbzqCHZzMo2PbI61"
+	}
 }
