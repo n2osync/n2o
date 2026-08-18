@@ -198,11 +198,10 @@ Not exhaustive. The full list is in the command palette under `N2O`.
 ## Pricing
 
 Start with a **14-day free trial**, every feature unlocked, up to 300 pages, no
-card. After that:
+card. After that, Pro (monthly or annual) and Lifetime are both one click away:
 
 | | Trial | Pro | Lifetime |
 |---|:---:|:---:|:---:|
-| Price | Free, 14 days | $8 / month, or $80 / year | $299 once |
 | Synced pages | 300 | Unlimited | Unlimited |
 | Databases | Unlimited | Unlimited | Unlimited |
 | All blocks and properties | Yes | Yes | Yes |
@@ -212,18 +211,7 @@ card. After that:
 | Bases views and templates | Yes | Yes | Yes |
 | Priority support | Yes | Yes | Yes |
 
-[Get Monthly, $8](https://buy.polar.sh/polar_cl_P6gGNQIxY1HPcKYVeEUwtjaiWDVhPVaSBNYJV12q0Bk) /
-[Get Annual, $80](https://buy.polar.sh/polar_cl_PtqQjir56nGaVsDudeEi6xrub3Jvf9nty4XJK2MygL8) /
-[Get Lifetime, $299](https://buy.polar.sh/polar_cl_Gc4muMDIVJNeTLgNZCzEnSwdv51jbzqCHZzMo2PbI61)
-
-Annual is twelve months for the price of ten. Prefer Gumroad? You can buy
-[Monthly](https://simhaxdev.gumroad.com/l/n2opro),
-[Annual](https://simhaxdev.gumroad.com/l/n2oyearly) or
-[Lifetime](https://simhaxdev.gumroad.com/l/n2oprolife) there instead.
-
-**Students and academic staff pay $79, once, forever.**
-[Get the academic price](https://n2osync.com/academic/) using your university
-email address.
+[See pricing and buy](https://n2osync.com/pricing)
 
 All sales are final, which is exactly why the trial gives you everything for 14
 days with no card. Try it properly first.
