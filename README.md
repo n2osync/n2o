@@ -231,29 +231,32 @@ If you use both Notion and Obsidian, this was built for you.
 
 ## Access and privacy
 
-N2O holds a Notion token and writes to your vault, so here is exactly what it
-touches and why.
+**We do not have your notes.** Not "we do not look at them". We do not have
+them. There is no N2O cloud, no backup of your vault, no index of it. If you
+asked us today to show you one line of one of your pages, we could not do it.
 
-**What it reads and writes**
+N2O runs inside Obsidian on your computer and talks straight to Notion's API.
+Your content goes from your machine to your Notion workspace and back, and it
+never travels through anything of ours on the way.
+
+**What we never see:** your notes, your page and file names, your database rows,
+your attachments, your Notion token, your vault or how big it is.
+
+**What we have:** your email address, so a licence has something to attach to,
+and your licence key. That is the whole list.
+
+No advertising, no tracking, no profile of you, and no selling of anything to
+anyone, ever.
+
+**What N2O reads**, on your machine, to do the sync:
 
 - **Your Notion workspace**, limited to the pages and databases you explicitly
   share with the integration, through `api.notion.com`. If you connect with an
   internal integration token, Notion only exposes what you shared from each page's
   **Connections** menu.
 - **Your vault**, inside the sync folder you choose, plus a local SQLite file
-  holding sync state.
+  holding sync state. Both are files on your own disk.
 - **Media**, downloaded from the Notion-hosted URLs the API returns.
-
-**Where your content does and does not go**
-
-- Your note content never passes through an N2O server. Sync is a direct
-  conversation between your machine and Notion.
-- The N2O license server receives your license and device id, plugin and Obsidian
-  version and platform, and per-sync diagnostics: counts (pages, databases,
-  conflicts), timings, and sanitised error messages. Error text is redacted so
-  page titles and content are not included. Diagnostics can be turned off in one
-  click under **Settings > Account**.
-- No advertising, no cross-site tracking, no selling of anything to anyone.
 
 **Your token** is stored in the vault's plugin settings and is only ever sent to
 `api.notion.com`. Treat that file the way you would treat any credential, and do
@@ -345,8 +348,9 @@ templates.
 
 Your Obsidian version, your N2O version, what you were doing, and anything in the
 developer console (Ctrl+Shift+I on Windows and Linux, Cmd+Option+I on macOS).
-`Copy diagnostics for support` in the command palette collects a sanitised report
-for you.
+`Copy diagnostics for support` in the command palette puts a report on your
+clipboard for you to read and send to us if you want to. It goes nowhere on its
+own.
 
 </details>
 
